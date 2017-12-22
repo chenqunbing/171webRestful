@@ -1,0 +1,204 @@
+		   body{
+				background-color:#e7e7e9;
+				background-image1: url(../images/pageBack.png);
+				background-repeat:no-repeat;
+				background-size:100% 100%; 
+			}
+			table{
+				box-shadow:0 0 20px 0 #000000;
+				border-collapse:collapse;
+				margin:10px;
+			}
+			button{
+				margin:2px; 
+				width:100px;
+				height:36px;
+				line-height:32px;
+				font-family: "Microsoft YaHei";
+				font-size:16px;
+				color:white;
+				background-city: url(../images/button.png);
+				background-repeat:no-repeat;
+				border-radius:5px;
+				border: 1px solid #AAAAAA;
+			}
+			
+			#worldCanvas{
+				position:relative;				
+				background-image: url(../images/map.png);
+				background-size:1280 717; 
+				background-repeat:no-repeat;
+				width:1280px; 
+				height:717px;				
+			}
+			
+			#cityList{
+				height:800;
+				overflow:scroll;
+				background-city: url(../images/cityList.png);				
+			}
+			
+			#cityList div[id^=city]{
+				width:170px;
+				height:90px;
+				padding:10px;				
+			}
+			
+			#cityList div[id^=city]:hover{
+				box-shadow:0px 0px 32px #FFFFFF;		
+			}
+			
+			#cityList #cityDescription{
+			    font-family: "Microsoft YaHei";
+				font-size:12px;	
+				line-height:16px;											
+			}
+		
+			#cityList #cityDescription button{
+			   font-family: "Microsoft YaHei";
+			   font-size:12px;
+			   width:30px;
+			   height:20px;
+			   line-height:16px;
+			   color:black;				
+			} 
+			
+			#cityList img{
+				float:left;
+				width:80px;
+			}
+			
+			#continentSelector{
+				background-color:#a84142;
+				height:48px;
+				font-family: "Microsoft YaHei";
+				font-size:16px;
+				color:white;
+			}
+			
+			#mapTitle{
+				background-color:#a03838;
+				height:48px;
+				font-family: "Microsoft YaHei";
+				font-size:18px;
+				color:white;
+				text-align:center;
+			}
+			
+			#clockShow{
+				position: absolute;
+				width:1280px; 
+				bottom: 85px;
+				height:120px;
+				background-color:#FFFFFF;
+			}
+			
+			#locationTag{
+				position:absolute;
+				background-image: url(../images/location.png);
+				background-repeat:no-repeat;
+				background-size:40px 55px;
+				width:40px; 
+				height:56px;
+				z-index:100;
+			}
+			#locationTag #flag{
+				position:absolute;
+				z-index:90;
+				width:30;
+				top:2;
+				left:5;
+			}
+			
+			#locationTag #info{
+				font-family: "Microsoft YaHei";
+				font-size:10px;
+				color:#815703;
+				position:absolute;
+				z-index:90;
+				width:60;
+				top:45;
+				left:-10;
+				text-align:center;
+				background-color:#fdf1c1;
+				border: 1px solid #563a02;
+				opacity:0.9;
+			}
+			
+			#clockSmall{
+				postion:relative;
+				float:left;
+				padding:5px;				
+			}
+			
+			#clockSmall div[id^=number]{
+				postion:absolute;
+				float:left;
+				width:19px;
+				height:28px;
+				background:url("../images/timeChar200.jpg") no-repeat ;
+			    border: 0px solid red;
+			}
+			
+			#clockSmall #division{
+				postion:absolute;
+				float:left;
+				width:5px;
+				height:28px;
+				background:url("../images/timeChar200.jpg") no-repeat ;
+				background-position: -192px 0px;
+			    border: 0px solid red;
+			}
+			
+			#clockSmall #city,#country,#timeZone,#op{
+				float:left;
+				color:#FFFFFF;
+				font-family: "Microsoft YaHei";
+				font-size:10px;	
+				line-height:16px;
+				border-radius:5px;
+				border: 1px solid #AAAAAA;
+				padding:2px;
+				margin:2px;
+			}
+			#clockSmall table{
+				background-color:#000000;
+			}
+			
+			#clockSmall #flag{
+				float:left;
+				width:50px;
+			}
+			
+			#clockSmall #country{
+				background-color:#ff8040;
+				border: 1px solid #9f4e25;
+				width:45px;
+				height:16px;
+				overflow:hidden
+			}
+			
+			#clockSmall #city{
+				background-color:#4a8dfc;
+				border: 1px solid #1752b5;
+				width:45px;
+				height:16px;
+				overflow:hidden
+			}
+			
+			#clockSmall #timeZone{
+				background-color:#3cc24c;
+				border: 1px solid #198226;
+				width:11px;
+				height:16px;
+				overflow:hidden;
+			}
+			
+			#clockSmall #op button{
+				background-color:#ee4b47;
+				border: 1px solid #881a17;
+				width:20px;
+				height:16px;
+				line-height:8px;
+				margin:0px;
+			}

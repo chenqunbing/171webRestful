@@ -1,0 +1,14 @@
+#goBang{
+	position:relative;
+	margin:2px;
+	background-image: url(../images/board.jpg);
+	background-size:800 800; 
+	background-repeat:no-repeat;
+	border:1px solid #885204;
+}
+
+body,button{
+	font-family: "Microsoft YaHei";
+	font-size:16px;
+}
+
